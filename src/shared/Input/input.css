@@ -1,0 +1,11 @@
+.input {
+	outline: none;
+	width: 100%;
+	font-size: 16px;
+	padding: 6px 12px;
+	border-radius: 2px;
+}
+.input:focus,
+.input:hover {
+	outline: 1px solid rgb(209, 213, 219);
+}

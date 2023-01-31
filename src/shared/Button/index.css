@@ -1,0 +1,24 @@
+.button {
+	color: white;
+	padding: 4px 6px;
+	min-width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 40px;
+	transition: 0.3s;
+	border-radius: 2px;
+	outline: none;
+}
+.button.primary {
+	background: #03a9f4;
+}
+.button.red {
+	background: #f22112;
+}
+.button.primary:hover {
+	background: #2f80ed;
+}
+.button.primary:active {
+	background: #0288d1;
+}
